@@ -1,0 +1,43 @@
+.gohome > svg{
+  position: absolute;
+  left: 2%;
+  top: 3%;
+  scale: 3;
+  fill: rgba(50, 100, 255, 0.9);
+}
+.con{
+  padding: 50px 0;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.box .data{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.box .title{
+  padding: 10px;
+  background-color: rgb(230, 230, 230);
+}
+.box pre{
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+.box .btn{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.box .btn a{
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background-color: rgba(50, 100, 255, 0.9);
+  padding: 7px 14px;
+}

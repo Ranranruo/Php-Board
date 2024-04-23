@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+header .logo {
+  font-size: 30px;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+header .auth {
+  display: flex;
+  gap: 10px;
+}
+
+header .auth a {
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+header .auth a:nth-child(1) {
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(50, 100, 255, 0.9);
+
+}
+
+header .auth a:nth-child(2) {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: rgba(50, 100, 255, 0.9);
+  border: 1px solid rgba(50, 100, 255, 0.9);
+}
